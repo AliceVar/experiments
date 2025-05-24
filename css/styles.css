@@ -1,0 +1,128 @@
+
+header {
+    color: white;
+    max-width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.first-section {
+    background-color: #bdcfff;
+    border: 10px dashed #FFAECC;
+    padding-top: 50px ;
+    padding-left: 40px;
+    overflow: auto;
+    
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 26px;
+    
+}
+
+
+h1 {
+    margin: 0;
+    padding:0;
+}
+
+.exp-text {
+    text-align: center;
+}
+
+body {
+    font-size:24px;
+    font-family: "Silkscreen";
+    background-color: #fafafa;
+    line-height: 1.5;;
+    
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.name {
+   
+   font-style:italic;
+   font-weight:900;
+   color:white;
+   background-color:#FFAECC;
+   text-decoration:double;
+   text-align:center;
+   line-height: 90px;
+   letter-spacing: 70px;
+   text-shadow: 5px 5px 5px grey;
+   font-family: "Raleway";
+
+}
+
+.name:hover {
+    text-decoration:underline;
+    color:#BDE0FE;
+    background-color:pink;
+    letter-spacing: 15px;
+}
+
+.explanation {
+    background-image: url(//cdn.mos.cms.futurecdn.net/AoWXgnHSxAAPxqymPQMQYL-1200-80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    width: 480px;
+    height: 360px;
+    border: 5px solid #CDD5AE;
+    background-color: #BDE0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(//miro.medium.com/v2/resize:fit:3840/1*3l_gNnYqeGpwNUoQEYGM9w.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-button {
+    color: black;
+    background-color: #FFAECC;
+    height: 50px;
+    
+    
+}
+
+.figures {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fig-1, .fig-2, .fig-3, .fig-4, .fig-5 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #101820;
+    background-color: #BDE0FE;
+    margin-top: 25px;
+}
+
+.span-text {
+    color: aqua;
+}
